@@ -21,7 +21,7 @@ export default function RadioButton({
   const sizeFull = PixelRatio.roundToNearestPixel(size);
 
   let orientation: any = { flexDirection: 'row' }
-  let margin: any = { marginLeft: 10 };
+  let margin: any = { marginRight: 10 };
 
   if (layout === 'column') {
     orientation = { alignItems: 'center' };
